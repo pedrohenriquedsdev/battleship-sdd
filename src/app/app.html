@@ -1,0 +1,37 @@
+<div class="flex min-h-dvh flex-col bg-slate-100 text-slate-900">
+  <header class="border-b border-slate-200 bg-white">
+    <div class="mx-auto flex w-full max-w-5xl items-center gap-3 px-4 py-4">
+      <svg lucideAnchor class="size-6 shrink-0 text-embarcacao" aria-hidden="true"></svg>
+      <div class="min-w-0">
+        <h1 class="truncate text-lg font-semibold tracking-tight">{{ titulo() }}</h1>
+        <p class="truncate text-sm text-slate-600">Jogo de estratégia contra o computador</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="mx-auto w-full max-w-5xl flex-1 px-4 py-8">
+    <section
+      class="mx-auto max-w-xl rounded-xl bg-white p-5 shadow-sm ring-1 ring-slate-200 sm:p-6"
+    >
+      <h2 class="text-xl font-semibold">Bem-vindo à Batalha Naval</h2>
+      <p class="mt-2 text-slate-600">
+        Posicione sua frota, ataque coordenadas do tabuleiro adversário e destrua todas as
+        embarcações do computador antes que ele destrua as suas.
+      </p>
+      <ul class="mt-4 space-y-2 text-sm text-slate-700">
+        <li>Tabuleiro de 10 × 10 posições, de A1 a J10.</li>
+        <li>Cinco embarcações por participante.</li>
+        <li>Um ataque por turno, começando sempre pelo jogador.</li>
+      </ul>
+      <p class="mt-6 rounded-lg bg-agua/10 px-4 py-3 text-sm text-agua" role="status">
+        A preparação da frota será habilitada na próxima fase do desenvolvimento.
+      </p>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-white">
+    <div class="mx-auto w-full max-w-5xl px-4 py-4 text-xs text-slate-500">
+      Projeto acadêmico — Angular 22 · zoneless · Tailwind CSS 4
+    </div>
+  </footer>
+</div>

@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-agua: oklch(0.62 0.13 236);
+  --color-acerto: oklch(0.58 0.2 27);
+  --color-erro: oklch(0.55 0.02 250);
+  --color-embarcacao: oklch(0.42 0.08 248);
+  --color-foco: oklch(0.55 0.18 255);
+}
+
+:root {
+  color-scheme: light;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-foco);
+  outline-offset: 2px;
+}

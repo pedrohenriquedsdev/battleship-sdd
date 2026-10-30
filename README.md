@@ -145,3 +145,8 @@ npm run format:check  # apenas verifica a formatação
 
 A aplicação usa Angular 22.2 com componentes standalone e sem Zone.js (zoneless),
 estilização com Tailwind CSS 4 e ícones Lucide.
+
+> Nota de implementação: o Angular 22 já opera em modo zoneless por padrão (v21+), portanto o
+> `angular.json` não declara `zone.js` em `polyfills` e a detecção de mudanças é agendada por
+> signals, eventos de template e `markForCheck`, conforme registrado em
+> `openspec/changes/fundacao-do-app/design.md`.

@@ -1,0 +1,10 @@
+node_modules
+dist
+.angular
+coverage
+package-lock.json
+README.md
+AGENTS.md
+openspec
+.playwright-mcp
+.opencode

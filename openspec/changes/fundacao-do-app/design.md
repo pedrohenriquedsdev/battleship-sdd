@@ -37,7 +37,7 @@ O arquivo atual já cobre `.key`, `__screenshots__/` e caches do Angular; o gera
 Angular 21+ já é zoneless por padrão; a única ação é não incluir Zone.js em `polyfills` e registrar a decisão no README. Alternativa descartada: chamar `provideZonelessChangeDetection()` manualmente, redundante.
 
 **6. Estado e ícones isolados no shell.**
-`AppComponent` apenas compõe layout e um placeholder; `PartidaStore` e componentes de jogo entram nas fases seguintes. `lucide-angular` é instalado agora, mas ícones são importados por componente (tree-shaking).
+`AppComponent` apenas compõe layout e um placeholder; `PartidaStore` e componentes de jogo entram nas fases seguintes. `@lucide/angular` é instalado agora, mas ícones são importados por componente (tree-shaking).
 
 **7. Testes de fumaça com Vitest + jsdom.**
 Um spec do shell garante que a cadeia de build/teste funciona antes das regras. Alternativa descartada: Karma/Jasmine, mais lento e fora do padrão do Angular 22.
